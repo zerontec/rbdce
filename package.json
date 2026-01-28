@@ -10,6 +10,9 @@
     "lint": "expo lint",
     "eas:android": "eas build -p android --profile preview"
   },
+  "overrides": {
+    "expo-location": "$expo-location"
+  },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
     "@nkzw/create-context-hook": "^1.1.0",

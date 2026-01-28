@@ -134,7 +134,7 @@ export default function HomeScreen() {
                         <Text style={styles.footerText}>Generación RBD © 2026</Text>
                         <Text style={styles.footerTagline}>Yo digo R, tú dices BD...</Text>
                     </View>
-                </ScrollView>
+                </Animated.ScrollView>
             </SafeAreaView>
         </View>
     );
